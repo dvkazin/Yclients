@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<GenerateDocumentationFile>False</GenerateDocumentationFile>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Authors>Dmitry Kazin</Authors>
+	<Description>Client for Yclients API.
+
+Implemented Methods:
+Authorization - GET
+Company		- GET
+Record			 - GET
+Service			 - GET
+Staff				 - GET
+Visit				  - GET
+
+To get user token use Authentication method from Yclients.Authorization class.</Description>
+	<PackageIcon>logo.png</PackageIcon>
+	<PackageTags>yclients</PackageTags>
+	<NeutralLanguage>ru-RU</NeutralLanguage>
+	<Company></Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Update="logo.png">
+	  <Pack>True</Pack>
+	  <PackagePath>\</PackagePath>
+	</None>
+  </ItemGroup>
+
+</Project>
